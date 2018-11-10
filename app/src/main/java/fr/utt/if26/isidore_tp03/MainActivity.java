@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final TextView tx=(TextView)findViewById(R.id.textview);
-        tx.setText("Message modifié dans le code Java");
+        //Définition de la variable
+        String message="Bonjour IF26";
+        tx.setText(message);
         //tx.setText(getResources().);
 
         //Le bouton
